@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Heo/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.7/5599707a3eaad13e889f691b3af78c8c03842195/joda-time-2.7.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5599707a3eaad13e889f691b3af78c8c03842195">
+        <dex dex="/Users/Heo/StudioProjects/android-timeline/app/build/intermediates/pre-dexed/debug/joda-time-2.7-296d73287563f4c376e9fc982cc64db4d3cb157e.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context=".MainActivity" >
+
+    <com.DBProject.heo.pit.TimeLine.TLView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="wrap_content"
+        android:layout_height="244dp"
+        android:layout_gravity="center_horizontal|top" />
+
+    <LinearLayout
+        android:background="@drawable/round_background"
+        android:layout_width="match_parent"
+        android:layout_height="374dp"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <TextView
+            android:text="ToDoList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#FFFF00"
+            android:textSize="30dp"
+            android:id="@+id/ToDoListName"
+        />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="70dp"
+            android:text="생성"
+            android:background="@drawable/catemake"
+            android:id="@+id/ToDoCreatebutton" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="제거"
+            android:textSize="20dp"
+            android:background="@drawable/catemake"
+            android:id="@+id/ToDoDeletebutton" />
+
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/todolist"
+        android:layout_width="wrap_content"
+        android:layout_height="313dp"
+        android:groupIndicator="@null"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal|bottom" />
+
+</FrameLayout>
+
