@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_element"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="10sp" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="@drawable/maketodolist"
+        android:text="Modify Category"
+        android:textColor="#FFFFFF"
+        android:id="@+id/textView_C" />
+
+    <ListView
+        android:id="@+id/listview_C"
+        android:layout_below="@+id/textView_C"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textFilterEnabled="false" />
+
+</RelativeLayout>

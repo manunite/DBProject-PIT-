@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_element"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="10sp" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="@drawable/maketodolist"
+        android:text="Modify Category"
+        android:textColor="#FFFFFF"
+        android:id="@+id/textView3_M_C" />
+
+    <TextView
+        android:id="@+id/inputName_C_M"
+        android:text="CateName"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView3_M_C"
+        android:layout_marginLeft="15dp"
+        android:layout_alignLeft="@+id/textView3_M_C"
+        android:layout_marginTop="41dp"/>
+
+
+    <EditText
+        android:id="@+id/CateName_M"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView3_M_C"
+        android:layout_marginRight="15dp"
+        android:layout_alignRight="@+id/textView3_M_C"
+        android:layout_marginTop="41dp" />
+
+
+    <!--아래 텍스트 뷰는 가라로 위치잡으려고 넣어놓은것! -->
+    <TextView
+        android:id="@+id/ChangeCateName_M"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/CateName_M"
+        android:layout_marginRight="15dp"
+        android:layout_alignRight="@+id/textView3_M_C"
+        android:layout_marginTop="41dp"  />
+
+
+
+
+    <Button
+        android:id="@+id/ChangeCate_M"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="false"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Confirm" />
+
+
+</RelativeLayout>
